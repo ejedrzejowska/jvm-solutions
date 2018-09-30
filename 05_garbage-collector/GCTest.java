@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Random;
 
 public class GCTest {
-    public static final int UNLUCKY_LEVEL = 1_000_000;
+    public static final int UNLUCKY_LEVEL = 1_000;
     // to store object name
         String name;
         private static List<GCTest> CHILDREN = new ArrayList<>();
