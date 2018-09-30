@@ -1,4 +1,4 @@
-import com.sun.javafx.util.Logging;
+//import com.sun.javafx.util.Logging;
 import java.util.ArrayList;
 
 public class ClassLoaders {
@@ -10,9 +10,11 @@ public class ClassLoaders {
 
         System.out.println("Classloader of this class:"
                 + ClassLoaders.class.getClassLoader());
+        System.out.println("Classloader of this NonExistingForCLassLoader:"
+                + NonExistingForClassLoader.class.getClassLoader());
 
-        System.out.println("Classloader of Logging:"
-                + Logging.class.getClassLoader());
+//        System.out.println("Classloader of Logging:"
+//                + Logging.class.getClassLoader());
 
         System.out.println("Classloader of ArrayList:"
                 + ArrayList.class.getClassLoader());
